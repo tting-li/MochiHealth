@@ -1,0 +1,186 @@
+[
+  {
+    "id": "fever_001",
+    "title": "Fever",
+    "content": "A fever is a temporary increase in body temperature, often due to an illness. Having a fever is a sign that something out of the ordinary is going on in your body. For an adult, a fever may be uncomfortable, but usually isn't a cause for concern unless it reaches 103 F (39.4 C) or higher. For infants and toddlers, a slightly elevated temperature may indicate a serious infection. Fevers generally go away within a few days. A number of over-the-counter medications lower a fever, but sometimes it's better left untreated. Fever seems to play a key role in helping your body fight off a number of infections.",
+    "triage_level": "monitor",
+    "red_flags": ["temperature above 103F in adults", "fever lasting more than 3 days", "fever with stiff neck", "fever with severe headache", "fever with rash", "infant under 3 months with any fever"],
+    "source": "MedlinePlus"
+  },
+  {
+    "id": "chest_pain_001",
+    "title": "Chest Pain",
+    "content": "Chest pain appears in many forms, ranging from a sharp stab to a dull ache. Sometimes chest pain feels crushing or burning. In certain cases, the pain travels up the neck, into the jaw, and then radiates to the back or down one or both arms. Many different problems can cause chest pain. The most life-threatening causes involve the heart or lungs. Because chest pain can indicate a serious problem, it's important to seek immediate medical help. Heart attack symptoms include pressure, tightness, pain, squeezing or aching sensation in the chest or arms that may spread to your neck, jaw or back, nausea or abdominal pain, shortness of breath, cold sweat, fatigue, and lightheadedness or sudden dizziness.",
+    "triage_level": "urgent",
+    "red_flags": ["pressure or squeezing sensation", "pain radiating to arm or jaw", "accompanied by shortness of breath", "cold sweat", "nausea with chest pain", "sudden onset"],
+    "source": "MedlinePlus"
+  },
+  {
+    "id": "headache_001",
+    "title": "Headache",
+    "content": "Most headaches aren't the result of a serious illness, but some may result from a life-threatening condition requiring emergency care. Headaches are generally classified by cause. A primary headache is caused by overactivity of or problems with pain-sensitive structures in your head. A secondary headache is a symptom of a disease that can activate the pain-sensitive nerves of the head. Tension headaches are the most common type. Migraines are characterized by moderate to severe throbbing or pulsating pain, usually on one side of the head. Cluster headaches are intensely painful headaches that occur in groups or clusters.",
+    "triage_level": "monitor",
+    "red_flags": ["sudden severe thunderclap headache", "headache with fever and stiff neck", "headache after head injury", "headache with vision changes", "headache with confusion", "worst headache of your life"],
+    "source": "MedlinePlus"
+  },
+  {
+    "id": "shortness_breath_001",
+    "title": "Shortness of Breath",
+    "content": "Shortness of breath — known medically as dyspnea — is often described as an intense tightening in the chest, air hunger, difficulty breathing, breathlessness or a feeling of suffocation. Shortness of breath has many different causes. Following physical activity or gaining altitude, shortness of breath is usually nothing to be concerned about. But if shortness of breath starts suddenly and is severe, or is accompanied by chest pain, it may be a sign of a heart attack or pulmonary embolism. A wide range of conditions can cause shortness of breath, including asthma, COPD, pneumonia, heart failure, COVID-19, and anemia.",
+    "triage_level": "urgent",
+    "red_flags": ["sudden severe onset", "accompanied by chest pain", "blue lips or fingertips", "inability to speak full sentences", "at rest without exertion"],
+    "source": "MedlinePlus"
+  },
+  {
+    "id": "abdominal_pain_001",
+    "title": "Abdominal Pain",
+    "content": "Abdominal pain is pain that you feel anywhere between your chest and groin. This is often referred to as the stomach region or belly. Almost everyone has pain in the abdomen at some point. Most of the time, it is not serious. Common causes of abdominal pain include indigestion after eating, gas, constipation, stomach virus, menstrual cramps, food poisoning, food allergies, and lactose intolerance. More serious causes include appendicitis, kidney stones, bowel obstruction, and ectopic pregnancy.",
+    "triage_level": "monitor",
+    "red_flags": ["severe pain that came on suddenly", "pain in right lower quadrant possibly appendicitis", "pain with fever and vomiting", "blood in stool", "pregnant with abdominal pain", "rigid hard abdomen"],
+    "source": "MedlinePlus"
+  },
+  {
+    "id": "nausea_vomiting_001",
+    "title": "Nausea and Vomiting",
+    "content": "Nausea and vomiting are not diseases, but they are symptoms of many conditions such as motion sickness, early stages of pregnancy, medication side effects, intense pain, emotional stress, gallbladder disease, food poisoning, infections, and overeating. Nausea and vomiting most often are due to viral gastroenteritis — often called stomach flu — or the morning sickness of early pregnancy. Many medications, including cancer chemotherapy, can cause nausea and vomiting. In some cases, vomiting can be serious: vomiting blood, severe abdominal pain, signs of dehydration, or vomiting lasting more than 2 days require medical attention.",
+    "triage_level": "routine",
+    "red_flags": ["vomiting blood or material that looks like coffee grounds", "severe abdominal pain with vomiting", "signs of dehydration", "vomiting more than 2 days", "head injury followed by vomiting"],
+    "source": "MedlinePlus"
+  },
+  {
+    "id": "rash_001",
+    "title": "Skin Rash",
+    "content": "A rash is a change of the human skin which affects its color, appearance, or texture. A rash may be localized in one part of the body, or affect all the skin. Rashes may cause the skin to change color, itch, become warm, bumpy, chapped, dry, cracked, or blistered, swell, and may be painful. The causes, and therefore treatments for rashes, vary widely. Diagnosis must take into account such things as the appearance of the rash, other symptoms, what the patient may have been exposed to, occupation, and occurrence in family members. Contact dermatitis, eczema, hives, psoriasis, and shingles are common skin conditions.",
+    "triage_level": "routine",
+    "red_flags": ["rash with fever", "rash that spreads rapidly", "rash with difficulty breathing", "petechiae or purpura (small red or purple spots)", "rash with severe pain"],
+    "source": "MedlinePlus"
+  },
+  {
+    "id": "dizziness_001",
+    "title": "Dizziness",
+    "content": "Dizziness is a term used to describe a range of sensations, such as feeling faint, woozy, weak or unsteady. Dizziness that creates the false sense that you or your surroundings are spinning or moving is called vertigo. Dizziness is one of the more common reasons adults visit their doctors. Frequent dizzy spells or constant dizziness can significantly affect your life. But dizziness rarely indicates a life-threatening condition. Most often, dizziness is related to inner ear problems (benign positional vertigo, Meniere's disease), migraine, low blood pressure, anxiety, low blood sugar, dehydration, or anemia.",
+    "triage_level": "routine",
+    "red_flags": ["sudden severe headache with dizziness", "chest pain with dizziness", "loss of consciousness", "dizziness with slurred speech or vision changes", "dizziness after head injury"],
+    "source": "MedlinePlus"
+  },
+  {
+    "id": "cough_001",
+    "title": "Cough",
+    "content": "Coughing is a reflex action that clears your airway of irritants and mucus. There are two types of cough: productive and non-productive. A productive cough produces phlegm or mucus, clearing it from the lungs. A nonproductive cough, also known as a dry cough, doesn't produce phlegm or mucus. Common causes include upper respiratory infections (cold, flu), allergies, asthma, GERD, and COVID-19. Most coughs clear up on their own. However, a cough that lasts longer than three weeks is considered chronic and should be evaluated by a doctor.",
+    "triage_level": "routine",
+    "red_flags": ["coughing up blood", "cough with high fever", "cough with chest pain", "severe shortness of breath with cough", "cough lasting more than 8 weeks"],
+    "source": "MedlinePlus"
+  },
+  {
+    "id": "fatigue_001",
+    "title": "Fatigue",
+    "content": "Fatigue is a feeling of tiredness, exhaustion, or lack of energy that makes it hard to function normally. It can be linked to physical or mental activity. Fatigue can be normal after physical or mental exertion. Fatigue is a symptom of many illnesses, including anemia, thyroid disorders, sleep apnea, diabetes, depression, and viral infections. COVID-19 can cause significant fatigue including long COVID with fatigue persisting for months. Lifestyle factors like poor sleep, lack of physical activity, poor nutrition, and stress also contribute to fatigue.",
+    "triage_level": "routine",
+    "red_flags": ["fatigue with chest pain", "fatigue with shortness of breath at rest", "fatigue with unexplained weight loss", "fatigue with jaundice (yellowing of skin)", "fatigue with swollen lymph nodes"],
+    "source": "MedlinePlus"
+  },
+  {
+    "id": "stroke_001",
+    "title": "Stroke Warning Signs",
+    "content": "A stroke occurs when the blood supply to part of your brain is interrupted or reduced, preventing brain tissue from getting oxygen and nutrients. Brain cells begin to die in minutes. A stroke is a medical emergency, and prompt treatment is crucial. Early action can reduce brain damage and other complications. The signs of stroke often appear suddenly. Remember FAST: Face drooping, Arm weakness, Speech difficulty, Time to call 911. Other symptoms include sudden numbness or weakness in the face, arm, or leg, especially on one side of the body, sudden confusion or trouble understanding speech, sudden trouble seeing in one or both eyes, sudden trouble walking or dizziness.",
+    "triage_level": "emergency",
+    "red_flags": ["sudden face drooping", "sudden arm weakness", "sudden speech difficulty", "sudden severe headache", "sudden vision loss", "sudden loss of balance or coordination"],
+    "source": "MedlinePlus"
+  },
+  {
+    "id": "allergic_reaction_001",
+    "title": "Allergic Reaction / Anaphylaxis",
+    "content": "Anaphylaxis is a severe, potentially life-threatening allergic reaction. It can occur within seconds or minutes of exposure to something you're allergic to, such as peanuts or bee stings. Anaphylaxis causes the immune system to release a flood of chemicals that can cause you to go into shock. Signs and symptoms include a drop in blood pressure, skin reactions including hives and itching, flushing or pale skin, a feeling of warmth, the sensation of a lump in your throat, a constricted airway, nausea, vomiting or diarrhea, dizziness or fainting, and rapid or weak pulse.",
+    "triage_level": "emergency",
+    "red_flags": ["throat swelling or difficulty swallowing", "difficulty breathing after exposure to allergen", "severe hives with low blood pressure", "loss of consciousness after allergen exposure", "rapid weak pulse after allergic exposure"],
+    "source": "MedlinePlus"
+  },
+  {
+    "id": "back_pain_001",
+    "title": "Back Pain",
+    "content": "Back pain is one of the most common reasons people see a doctor or miss days at work and is a leading cause of disability worldwide. Most people have back pain at least once. Fortunately, you can take measures to prevent or relieve most back episodes of back pain. If prevention fails, simple home treatment and proper body mechanics often will heal your back within a few weeks and keep it functional for the long haul. Most back pain gradually improves with home treatment and self-care. Muscle or ligament strain from repeated heavy lifting, sudden awkward movements, and poor posture are the most common causes.",
+    "triage_level": "routine",
+    "red_flags": ["back pain with loss of bladder or bowel control", "back pain after significant trauma", "back pain with leg weakness or numbness", "back pain with fever", "back pain in cancer patients"],
+    "source": "MedlinePlus"
+  },
+  {
+    "id": "sore_throat_001",
+    "title": "Sore Throat",
+    "content": "A sore throat is pain, scratchiness or irritation of the throat that often worsens when you swallow. The most common cause of a sore throat is a viral infection, such as a cold or the flu. A sore throat caused by a virus resolves on its own. Strep throat, a less common type of sore throat caused by bacteria, requires treatment with antibiotics to prevent complications. Other less common causes of sore throat might require more complex treatment. Most sore throats can be treated at home with warm liquids, salt water gargling, and pain relievers.",
+    "triage_level": "routine",
+    "red_flags": ["difficulty swallowing or breathing", "drooling", "high fever above 101F with sore throat", "rash with sore throat", "sore throat lasting more than a week", "blood when coughing"],
+    "source": "MedlinePlus"
+  },
+  {
+    "id": "mental_health_001",
+    "title": "Mental Health Crisis",
+    "content": "Mental health emergencies can include suicidal thoughts or behaviors, severe panic attacks, psychosis, or extreme emotional distress. These are real medical emergencies. If someone is thinking about suicide, call or text 988 (Suicide and Crisis Lifeline) immediately. Warning signs include talking about wanting to die, looking for ways to kill themselves, talking about being a burden to others, increased substance use, withdrawing from activities, and extreme mood swings. Mental health crises require immediate professional help. Do not leave someone alone who is in a mental health crisis.",
+    "triage_level": "emergency",
+    "red_flags": ["suicidal thoughts or plans", "self-harm", "psychosis or losing touch with reality", "severe dissociation", "extreme agitation or violent behavior"],
+    "source": "MedlinePlus / SAMHSA"
+  },
+  {
+    "id": "diabetes_symptoms_001",
+    "title": "Diabetes Warning Signs",
+    "content": "Type 2 diabetes is often diagnosed by recognizing common symptoms: increased thirst and urination, increased hunger, fatigue, blurred vision, numbness or tingling in the feet or hands, frequent infections, and slow-healing sores. Diabetic ketoacidosis (DKA) is a serious complication of diabetes that occurs when your body produces high levels of blood acids called ketones. Signs of DKA include excessive thirst, frequent urination, nausea and vomiting, stomach pain, weakness or fatigue, shortness of breath, fruity-scented breath, and confusion.",
+    "triage_level": "monitor",
+    "red_flags": ["fruity smelling breath in diabetic", "confusion in known diabetic", "very high blood sugar (>300)", "inability to keep fluids down in diabetic", "rapid breathing with diabetes"],
+    "source": "MedlinePlus"
+  },
+  {
+    "id": "urinary_001",
+    "title": "Urinary Tract Infection",
+    "content": "Urinary tract infections (UTIs) are infections in any part of your urinary system — your kidneys, ureters, bladder and urethra. Most infections involve the lower urinary tract — the bladder and the urethra. Women are at greater risk of developing a UTI than are men. Infections limited to your bladder can be painful and annoying. Symptoms include a strong urge to urinate, burning sensation when urinating, frequent small amounts of urine, cloudy urine, red or pink urine, strong-smelling urine, and pelvic pain in women. If the infection spreads to your kidneys, serious consequences can occur.",
+    "triage_level": "routine",
+    "red_flags": ["back or flank pain with UTI symptoms", "high fever with UTI symptoms", "chills and shaking with UTI", "nausea and vomiting with UTI", "UTI in male or child"],
+    "source": "MedlinePlus"
+  },
+  {
+    "id": "eye_symptoms_001",
+    "title": "Eye Problems",
+    "content": "Many eye conditions and diseases can affect vision. Common symptoms include redness, pain, discharge, blurred vision, and light sensitivity. Some eye emergencies require immediate treatment to prevent permanent vision loss. Sudden vision loss is always an emergency. Chemical exposure to the eye requires immediate irrigation with water for at least 15 minutes and emergency care. A scratched cornea, foreign object in the eye, or eye trauma also require prompt medical attention. Conditions like conjunctivitis (pink eye) are less urgent but still need evaluation.",
+    "triage_level": "monitor",
+    "red_flags": ["sudden vision loss", "chemical exposure to eye", "eye trauma or penetrating injury", "severe eye pain", "seeing flashes or floaters suddenly"],
+    "source": "MedlinePlus"
+  },
+  {
+    "id": "joint_pain_001",
+    "title": "Joint Pain and Arthritis",
+    "content": "Joint pain can affect one or many joints. Joint pain can be caused by many types of injuries or conditions. It may be linked to arthritis, bursitis, and muscle pain. No matter the cause, joint pain can be very bothersome. Rheumatoid arthritis is a chronic inflammatory disorder affecting many joints, including those in the hands and feet. Osteoarthritis is the most common form of arthritis, affecting millions of people worldwide. Gout is characterized by sudden, severe attacks of pain, swelling, redness and tenderness in one or more joints, most often in the big toe.",
+    "triage_level": "routine",
+    "red_flags": ["sudden hot swollen joint with fever", "joint pain after trauma", "inability to move a joint", "joint pain with rash (possible Lyme disease)", "infected-looking joint with warmth and redness"],
+    "source": "MedlinePlus"
+  },
+  {
+    "id": "head_injury_001",
+    "title": "Head Injury and Concussion",
+    "content": "A traumatic brain injury (TBI) is caused by a bump, blow or jolt to the head. Not all blows to the head result in a TBI. A concussion is a type of TBI that changes how the brain works. Signs and symptoms include headache, confusion, lack of coordination, memory loss, nausea, vomiting, dizziness, ringing in the ears, sleepiness, and excessive fatigue. You don't have to lose consciousness to have a concussion. More serious TBIs can cause symptoms like repeated vomiting, seizures, slurred speech, clear fluid from nose or ears, and unequal pupil sizes.",
+    "triage_level": "monitor",
+    "red_flags": ["loss of consciousness", "repeated vomiting after head injury", "seizure after head injury", "clear fluid from nose or ears", "unequal pupils", "worsening headache after head injury", "confusion or disorientation"],
+    "source": "MedlinePlus"
+  },
+  {
+    "id": "leg_pain_001",
+    "title": "Leg Pain",
+    "content": "Leg pain can come from muscles, joints, nerves, blood vessels, or bones. Common causes include muscle strain after exercise, minor injuries, overuse, and arthritis. Pain that is mild and improves with rest is often not urgent. However, some causes of leg pain can be serious, especially when there is swelling, redness, warmth, or shortness of breath. Because many different conditions can cause leg pain, you should consider the full picture: recent trauma, ability to bear weight, fever, and symptoms in other parts of the body.",
+    "triage_level": "routine",
+    "red_flags": ["one-sided leg swelling with pain", "leg pain with redness and warmth", "leg pain with shortness of breath or chest pain", "severe pain after injury", "inability to bear weight", "fever with leg pain"],
+    "source": "MedlinePlus (curated)"
+  },
+  {
+    "id": "leg_swelling_dvt_001",
+    "title": "Leg Swelling (DVT Warning Signs)",
+    "content": "A blood clot in a deep vein (deep vein thrombosis, DVT) can cause swelling and pain in one leg. This can be dangerous because a clot can travel to the lungs (pulmonary embolism). Symptoms that raise concern include sudden swelling of one leg, pain or tenderness in the calf or thigh, warmth, and redness. Seek urgent medical evaluation if you suspect a clot, especially if you also have chest pain, shortness of breath, or coughing up blood.",
+    "triage_level": "urgent",
+    "red_flags": ["sudden one-sided leg swelling", "calf pain with warmth/redness", "new shortness of breath", "chest pain", "coughing up blood"],
+    "source": "MedlinePlus (curated)"
+  },
+  {
+    "id": "knee_injury_001",
+    "title": "Knee Injury",
+    "content": "Knee injuries can happen from sports, falls, twisting motions, or direct impact. Symptoms can include pain, swelling, difficulty bending the knee, instability, and trouble walking. Minor injuries may improve with rest and ice, but severe swelling, deformity, inability to bear weight, or fever may indicate a more serious problem that needs urgent evaluation.",
+    "triage_level": "routine",
+    "red_flags": ["knee looks deformed", "cannot bear weight", "severe swelling quickly after injury", "knee injury with fever", "numbness or cold foot after injury"],
+    "source": "MedlinePlus (curated)"
+  }
+]

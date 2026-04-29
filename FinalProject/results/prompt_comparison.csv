@@ -1,0 +1,46 @@
+variant,split,category,query,gold_triage,pred_triage,exact_match,precision_at_k,coherence,latency_ms
+zero_shot,test,headache,Worst headache of my life that started suddenly while lifting weights.,urgent,emergency,0,0.250,0.563,11471.5
+zero_shot,test,abdomen,Sharp pain in the right lower belly for 6 hours with fever.,urgent,routine,0,0.250,0.703,4682.0
+zero_shot,test,gi,Throwing up blood and severe stomach pain.,urgent,emergency,0,0.250,0.556,5898.5
+zero_shot,test,neuro,Dizziness with slurred speech for the last hour.,emergency,emergency,1,0.500,0.569,5200.2
+zero_shot,test,resp,Coughing up streaks of blood.,urgent,emergency,0,0.250,0.533,5621.9
+zero_shot,test,stroke,My face is drooping on one side and my arm feels weak.,emergency,emergency,1,0.250,0.644,5676.7
+zero_shot,test,msk,Back pain with numbness in both legs and trouble urinating.,urgent,emergency,0,0.250,0.550,8703.5
+zero_shot,test,ent,Sore throat with drooling and trouble breathing.,emergency,emergency,1,0.250,0.438,6667.1
+zero_shot,test,metabolic,Known diabetic with fruity breath and confusion.,emergency,emergency,1,0.250,0.745,5781.9
+zero_shot,test,gu,Flank pain and fever with UTI symptoms.,urgent,emergency,0,0.250,0.676,6358.1
+zero_shot,test,eye,Sudden vision loss in one eye this morning.,emergency,emergency,1,0.250,0.605,5486.4
+zero_shot,test,head_injury,Repeated vomiting after falling off a bike and hitting my head.,emergency,urgent,0,0.500,0.796,7033.1
+zero_shot,test,edge_fiction,I have dragon pox from Hogwarts.,routine,routine,1,,0.530,8188.7
+zero_shot,test,vague,I feel a little off but cannot describe any symptom clearly.,monitor,monitor,1,,0.374,5266.6
+zero_shot,__summary__,,,,,accuracy=0.500,mean_p@4=0.292,mean=0.592,mean_ms=6574.0 p50_ms=5840.2 p95_ms=9672.3
+few_shot,test,headache,Worst headache of my life that started suddenly while lifting weights.,urgent,emergency,0,0.250,0.373,6287.1
+few_shot,test,abdomen,Sharp pain in the right lower belly for 6 hours with fever.,urgent,emergency,0,0.250,0.729,6309.0
+few_shot,test,gi,Throwing up blood and severe stomach pain.,urgent,emergency,0,0.250,0.123,4425.8
+few_shot,test,neuro,Dizziness with slurred speech for the last hour.,emergency,urgent,0,0.500,0.396,5238.0
+few_shot,test,resp,Coughing up streaks of blood.,urgent,routine,0,0.250,0.512,4271.3
+few_shot,test,stroke,My face is drooping on one side and my arm feels weak.,emergency,emergency,1,0.250,0.400,5237.7
+few_shot,test,msk,Back pain with numbness in both legs and trouble urinating.,urgent,emergency,0,0.250,0.161,5213.8
+few_shot,test,ent,Sore throat with drooling and trouble breathing.,emergency,emergency,1,0.250,0.244,4637.8
+few_shot,test,metabolic,Known diabetic with fruity breath and confusion.,emergency,emergency,1,0.250,0.662,6926.8
+few_shot,test,gu,Flank pain and fever with UTI symptoms.,urgent,emergency,0,0.250,0.670,6920.0
+few_shot,test,eye,Sudden vision loss in one eye this morning.,emergency,emergency,1,0.250,0.319,4862.5
+few_shot,test,head_injury,Repeated vomiting after falling off a bike and hitting my head.,emergency,urgent,0,0.500,0.238,4053.7
+few_shot,test,edge_fiction,I have dragon pox from Hogwarts.,routine,monitor,0,,0.276,5358.2
+few_shot,test,vague,I feel a little off but cannot describe any symptom clearly.,monitor,monitor,1,,0.366,6751.8
+few_shot,__summary__,,,,,accuracy=0.357,mean_p@4=0.292,mean=0.391,mean_ms=5463.8 p50_ms=5237.9 p95_ms=6922.4
+chain_of_thought,test,headache,Worst headache of my life that started suddenly while lifting weights.,urgent,urgent,1,0.250,0.723,11887.8
+chain_of_thought,test,abdomen,Sharp pain in the right lower belly for 6 hours with fever.,urgent,urgent,1,0.250,0.713,9530.1
+chain_of_thought,test,gi,Throwing up blood and severe stomach pain.,urgent,emergency,0,0.250,0.604,10011.4
+chain_of_thought,test,neuro,Dizziness with slurred speech for the last hour.,emergency,emergency,1,0.500,0.616,8156.2
+chain_of_thought,test,resp,Coughing up streaks of blood.,urgent,emergency,0,0.250,0.543,9793.3
+chain_of_thought,test,stroke,My face is drooping on one side and my arm feels weak.,emergency,emergency,1,0.250,0.592,8564.4
+chain_of_thought,test,msk,Back pain with numbness in both legs and trouble urinating.,urgent,urgent,1,0.250,0.640,10681.6
+chain_of_thought,test,ent,Sore throat with drooling and trouble breathing.,emergency,urgent,0,0.250,0.700,11712.4
+chain_of_thought,test,metabolic,Known diabetic with fruity breath and confusion.,emergency,emergency,1,0.250,0.768,11288.9
+chain_of_thought,test,gu,Flank pain and fever with UTI symptoms.,urgent,urgent,1,0.250,0.746,11901.2
+chain_of_thought,test,eye,Sudden vision loss in one eye this morning.,emergency,urgent,0,0.250,0.724,10399.3
+chain_of_thought,test,head_injury,Repeated vomiting after falling off a bike and hitting my head.,emergency,urgent,0,0.500,0.761,11217.6
+chain_of_thought,test,edge_fiction,I have dragon pox from Hogwarts.,routine,monitor,0,,0.473,12970.8
+chain_of_thought,test,vague,I feel a little off but cannot describe any symptom clearly.,monitor,monitor,1,,0.731,10420.2
+chain_of_thought,__summary__,,,,,accuracy=0.571,mean_p@4=0.292,mean=0.667,mean_ms=10609.7 p50_ms=10550.9 p95_ms=12275.6

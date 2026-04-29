@@ -1,0 +1,13 @@
+[theme]
+primaryColor = "#1e5a96"
+backgroundColor = "#e8eaed"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#202124"
+font = "sans serif"
+
+[server]
+headless = true
+
+[client]
+# Reduce visible Streamlit UI chrome (helps avoid the Deploy toolbar overlapping the title).
+toolbarMode = "minimal"

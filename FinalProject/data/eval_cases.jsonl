@@ -1,0 +1,42 @@
+{"query": "I have a fever of 101 and chills since yesterday.", "gold_triage": "monitor", "gold_doc_ids": ["fever_001"], "category": "fever", "split": "train"}
+{"query": "Crushing chest pain spreading to my jaw and I feel clammy.", "gold_triage": "emergency", "gold_doc_ids": ["chest_pain_001"], "category": "chest_pain", "split": "train"}
+{"query": "Mild tension headache after work, no other symptoms.", "gold_triage": "routine", "gold_doc_ids": ["headache_001"], "category": "headache", "split": "val"}
+{"query": "Worst headache of my life that started suddenly while lifting weights.", "gold_triage": "urgent", "gold_doc_ids": ["headache_001"], "category": "headache", "split": "test"}
+{"query": "I cannot catch my breath at rest and my lips look blue.", "gold_triage": "emergency", "gold_doc_ids": ["shortness_breath_001"], "category": "breath", "split": "train"}
+{"query": "I get winded walking upstairs but it goes away quickly.", "gold_triage": "monitor", "gold_doc_ids": ["shortness_breath_001"], "category": "breath", "split": "val"}
+{"query": "Sharp pain in the right lower belly for 6 hours with fever.", "gold_triage": "urgent", "gold_doc_ids": ["abdominal_pain_001"], "category": "abdomen", "split": "test"}
+{"query": "Mild belly ache after greasy food, no fever.", "gold_triage": "routine", "gold_doc_ids": ["abdominal_pain_001"], "category": "abdomen", "split": "train"}
+{"query": "Vomited twice after a boat ride, feel a bit dehydrated.", "gold_triage": "routine", "gold_doc_ids": ["nausea_vomiting_001"], "category": "gi", "split": "val"}
+{"query": "Throwing up blood and severe stomach pain.", "gold_triage": "urgent", "gold_doc_ids": ["nausea_vomiting_001"], "category": "gi", "split": "test"}
+{"query": "Small itchy rash on my wrist from new soap.", "gold_triage": "routine", "gold_doc_ids": ["rash_001"], "category": "skin", "split": "train"}
+{"query": "Rash spreading fast with trouble breathing after peanuts.", "gold_triage": "emergency", "gold_doc_ids": ["allergic_reaction_001", "rash_001"], "category": "allergy", "split": "train"}
+{"query": "Room spins when I turn over in bed but goes away in a minute.", "gold_triage": "routine", "gold_doc_ids": ["dizziness_001"], "category": "neuro", "split": "val"}
+{"query": "Dizziness with slurred speech for the last hour.", "gold_triage": "emergency", "gold_doc_ids": ["dizziness_001", "stroke_001"], "category": "neuro", "split": "test"}
+{"query": "Dry cough for three days with runny nose, no fever.", "gold_triage": "routine", "gold_doc_ids": ["cough_001"], "category": "resp", "split": "train"}
+{"query": "Coughing up streaks of blood.", "gold_triage": "urgent", "gold_doc_ids": ["cough_001"], "category": "resp", "split": "test"}
+{"query": "Feeling tired after staying up late studying.", "gold_triage": "routine", "gold_doc_ids": ["fatigue_001"], "category": "general", "split": "val"}
+{"query": "Fatigue with unexplained 15 pound weight loss over a month.", "gold_triage": "urgent", "gold_doc_ids": ["fatigue_001"], "category": "general", "split": "train"}
+{"query": "My face is drooping on one side and my arm feels weak.", "gold_triage": "emergency", "gold_doc_ids": ["stroke_001"], "category": "stroke", "split": "test"}
+{"query": "Throat feels tight and lips swollen after bee sting.", "gold_triage": "emergency", "gold_doc_ids": ["allergic_reaction_001"], "category": "allergy", "split": "train"}
+{"query": "Lower back ache after gardening, no leg numbness.", "gold_triage": "routine", "gold_doc_ids": ["back_pain_001"], "category": "msk", "split": "val"}
+{"query": "Back pain with numbness in both legs and trouble urinating.", "gold_triage": "urgent", "gold_doc_ids": ["back_pain_001"], "category": "msk", "split": "test"}
+{"query": "Scratchy sore throat with mild cold symptoms.", "gold_triage": "routine", "gold_doc_ids": ["sore_throat_001"], "category": "ent", "split": "train"}
+{"query": "Sore throat with drooling and trouble breathing.", "gold_triage": "emergency", "gold_doc_ids": ["sore_throat_001"], "category": "ent", "split": "test"}
+{"query": "I feel hopeless and have a plan to end my life tonight.", "gold_triage": "emergency", "gold_doc_ids": ["mental_health_001"], "category": "mental_health", "split": "train"}
+{"query": "Stressed about exams but not suicidal.", "gold_triage": "monitor", "gold_doc_ids": ["mental_health_001"], "category": "mental_health", "split": "val"}
+{"query": "Known diabetic with fruity breath and confusion.", "gold_triage": "emergency", "gold_doc_ids": ["diabetes_symptoms_001"], "category": "metabolic", "split": "test"}
+{"query": "Increased thirst and urination for two weeks, no vomiting.", "gold_triage": "monitor", "gold_doc_ids": ["diabetes_symptoms_001"], "category": "metabolic", "split": "train"}
+{"query": "Burning when I pee and going often, no fever.", "gold_triage": "routine", "gold_doc_ids": ["urinary_001"], "category": "gu", "split": "val"}
+{"query": "Flank pain and fever with UTI symptoms.", "gold_triage": "urgent", "gold_doc_ids": ["urinary_001"], "category": "gu", "split": "test"}
+{"query": "Mild eye redness after swimming, no vision change.", "gold_triage": "routine", "gold_doc_ids": ["eye_symptoms_001"], "category": "eye", "split": "train"}
+{"query": "Sudden vision loss in one eye this morning.", "gold_triage": "emergency", "gold_doc_ids": ["eye_symptoms_001"], "category": "eye", "split": "test"}
+{"query": "Morning stiffness in finger joints, no fever.", "gold_triage": "routine", "gold_doc_ids": ["joint_pain_001"], "category": "msk", "split": "val"}
+{"query": "Hot swollen knee with high fever.", "gold_triage": "urgent", "gold_doc_ids": ["joint_pain_001"], "category": "msk", "split": "train"}
+{"query": "Bumped head yesterday, mild headache today, no vomiting.", "gold_triage": "monitor", "gold_doc_ids": ["head_injury_001"], "category": "head_injury", "split": "train"}
+{"query": "Repeated vomiting after falling off a bike and hitting my head.", "gold_triage": "emergency", "gold_doc_ids": ["head_injury_001", "nausea_vomiting_001"], "category": "head_injury", "split": "test"}
+{"query": "My elbow tastes purple and the moon is loud.", "gold_triage": "routine", "gold_doc_ids": [], "category": "edge_nonsense", "split": "val"}
+{"query": "I have dragon pox from Hogwarts.", "gold_triage": "routine", "gold_doc_ids": [], "category": "edge_fiction", "split": "test"}
+{"query": "Chest pain AND sore throat AND rash all at once for 2 hours.", "gold_triage": "urgent", "gold_doc_ids": ["chest_pain_001", "rash_001", "sore_throat_001"], "category": "multi", "split": "val"}
+{"query": "I feel a little off but cannot describe any symptom clearly.", "gold_triage": "monitor", "gold_doc_ids": [], "category": "vague", "split": "test"}
+{"query": "Fever with stiff neck and severe headache.", "gold_triage": "emergency", "gold_doc_ids": ["fever_001", "headache_001"], "category": "combo", "split": "train"}
+{"query": "Shortness of breath with chest pressure after climbing stairs.", "gold_triage": "urgent", "gold_doc_ids": ["shortness_breath_001", "chest_pain_001"], "category": "combo", "split": "val"}

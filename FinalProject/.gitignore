@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+.env
+logs/*.log
+logs/debug-998ffe.ndjson
+data/app.db
+data/vector_cache/
+.hf_cache/
