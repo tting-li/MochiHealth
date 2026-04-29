@@ -1,4 +1,4 @@
-# Health Journal Assistant (CS372 Final Project)
+# Mochi Health Personal Assistant (CS372 Final Project)
 
 ## What it does
 
